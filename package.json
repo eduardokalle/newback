@@ -1,15 +1,34 @@
 {
-  "name": "new-back",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^6.5.1",
-    "eslint-config-airbnb": "^18.0.1"
-  }
+    "name": "newback",
+    "version": "1.0.0",
+    "description": "aplicativo para registro de visitas",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "eduardocalle",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^6.5.1",
+        "eslint-config-airbnb": "^18.0.1"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "composable-middleware": "^0.3.0",
+        "compression": "^1.7.4",
+        "connect-mongo": "^3.0.0",
+        "crypto": "^1.0.1",
+        "errorhandler": "^1.5.1",
+        "express": "^4.17.1",
+        "express-jwt": "^5.3.1",
+        "express-session": "^1.16.2",
+        "jsonwebtoken": "^8.5.1",
+        "method-override": "^3.0.0",
+        "mongoose": "^5.7.4",
+        "morgan": "^1.9.1",
+        "nodemon": "^1.19.2",
+        "passport": "^0.4.0",
+        "passport-google-oauth": "^2.0.0",
+        "passport-local": "^1.0.0"
+    }
 }
